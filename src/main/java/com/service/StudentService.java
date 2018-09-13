@@ -13,5 +13,6 @@ public class StudentService {
     @Transactional
     public void insert(TStudentEntity studentEntity){
         studentDao.insert(studentEntity);
+        System.out.println("hello");
     }
 }
